@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="red_light">#e15d6d</color>
+    <color name="blue_light">#41a0da</color>
+    <color name="purple_light">#9c75be</color>
+    <color name="green_light">#21b291</color>
+    <color name="green_light_transparent">#1f21b291</color>
+    <color name="yellow_light">#ffc437</color>
+    <color name="black">#000</color>
+    <color name="black_half">#4f000000</color>
+    <color name="black_40">#14000000</color>
+    <color name="black_30">#10000000</color>
+    <color name="black_20">#0a000000</color>
+    <color name="black_10">#05000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_process">#afffffff</color>
+    <color name="windowsBlue">#39a1d0</color>
+    <color name="windowsBlue_dark">#0277bd</color>
+    <color name="blue_chart">#4a90e2</color>
+    <color name="blue_chart_transparent">#1f4a90e2</color>
+    <color name="red_deep">#b53645</color>
+    <color name="red_logout">#cc4455</color>
+    <color name="green_chart_eye">#50cea5</color>
+    <color name="green_chart">#94cd56</color>
+    <color name="orange_chart">#f2ac38</color>
+    <color name="orange_chart_alpha">#a0f2ac38</color>
+    <color name="red_chart">#da4658</color>
+    <color name="red_chart_transparent">#1fda4658</color>
+    <color name="red_chart_eye">#ed5b5b</color>
+    <color name="orange_light">#f4b03f</color>
+    <color name="orange_table_light">#f8c31c</color>
+    <color name="orange_table_deep">#f5a623</color>
+    <color name="background_gray">#fafafa</color>
+    <color name="text_gray">#9b9b9b</color>
+    <color name="text_gray_deep">#898989</color>
+    <color name="text_gray_light">#7f9b9b9b</color>
+    <color name="line_gray">#f0f0f0</color>
+    <color name="button_blue">#0088cc</color>
+    <color name="blue_deep">#117fc2</color>
+    <color name="blue_text_click">#0c669e</color>
+    <color name="text_selected">#888</color>
+    <color name="text_black">#4a4a4a</color>
+    <color name="background_blue_deep">#1f2738</color>
+    <color name="background_blue_light">#324265</color>
+    <color name="background_darkish_pink">#e15d6d</color>
+    <color name="red_alart">#d0021b</color>
+    <color name="background_lavender_pink">#c577d6</color>
+    <color name="background_yellow">#f8e71c</color>
+    <color name="background_red">#ea2b0c</color>
+    <color name="background_dustyOrange">#f4703f</color>
+    <color name="background_lightGrassGreen">#afed71</color>
+    <color name="background_dark_shadow">#20000000</color>
+    <color name="progressbar_green">#48E3D3</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="blue">#303F9F</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_teal">#009688</color>
+    <color name="purple">#673AB7</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+
+    <color name="accent_color">@color/blue</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+
+    <color name="background_tab_pressed">#8833B5E5</color>
+
+    <!--new color-->
+    <color name="gender_red">#ff6565</color>
+    <color name="gender_blue">#0096ce</color>
+    <color name="ruler_blue">#45afff</color>
+    <color name="main_bar_blue">#00d0f2</color>
+    <color name="main_bar_blue_light">#86ebfb</color>
+    <color name="main_text_purple">#712eac</color>
+    <color name="guide_text">#4b77be</color>
+    <color name="new_message">#e0192c</color>
+
+    <color name="green_blue">#50e3c2</color>
+    <color name="green_blue_chart">#ff0077e5</color>
+    <color name="green_report">#54ce50</color>
+    <color name="red_report">#cc4455</color>
+
+    <color name="green_progress">#25ae23</color>
+    <color name="red_progress">#f62a05</color>
+    <color name="yellow_progress">#fffc06</color>
+
+    <color name="blue_optometrist">#00bbda</color>
+    <color name="blue_appoint">#e3fbff</color>
+    <color name="blue_appoint_stroke">#c9e2e6</color>
+
+    <color name="health_index_green">#7ed321</color>
+    <color name="health_index_orange">#f5a623</color>
+    <color name="health_index_red">#d0021b</color>
+
+    <color name="blue_self_evaluation">#f4feff</color>
+    <color name="red_back">#ffe1e5</color>
+    <color name="circle_blue">#27aeff</color>
+    <color name="progress_green">#44c12f</color>
+    <color name="blue_new_report">#27aeff</color>
+    <color name="green_new_report">#2bd710</color>
+    <color name="red_new_report">#ff3951</color>
+    <color name="blue_progress_load_background">#9ad8ff</color>
+    <color name="blue_bar_chart">#9ad8ff</color>
+    <color name="blue_deep_bar_chart">#2257ab</color>
+    <color name="orange_week_report_background">#f65d23</color>
+
+    <color name="blue_week_report_text">#27adff</color>
+    <color name="new_index_gray">#f8f9f9</color>
+    <color name="comment_back">#27aeff</color>
+    <color name="new_appointment_info_back">#fffcd3</color>
+    <color name="new_appointment_info_text">#ff7300</color>
+    <color name="blue_alpha">#d1eeff</color>
+    <color name="green_alpha">#2ad35e</color>
+    <color name="blue_back_device_back">#c8eaff</color>
+    <color name="blue_protect">#a7dcfd</color>
+    <color name="blue_optometrist_new">#eaf8ff</color>
+    <color name="search_gray">#ececec</color>
+    <color name="orange_new_report">#f6a623</color>
+    <color name="orange_new_report_deep">#f69623</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sharp_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/iv_clear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/ic_clear" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" 您确定取消预约？"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="取消预约后，您可以再次预约。"
+        android:textColor="@color/text_black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="预约在当日晚上10点前有效，超过时间后自动取消预约，对您造成不便望您见谅。"
+        android:textColor="@color/text_black"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="85dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/click_text"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+</LinearLayout>

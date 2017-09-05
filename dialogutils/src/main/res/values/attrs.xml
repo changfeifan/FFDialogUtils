@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterDropView">
+        <attr name="max_circle_radius" format="dimension" />
+        <attr name="min_circle_radius" format="dimension" />
+        <attr name="waterdrop_color" format="color" />
+        <attr name="topcircle_x" format="dimension" />
+        <attr name="topcircle_y" format="dimension" />
+        <attr name="bottomcircle_x" format="dimension" />
+        <attr name="bottomcircle_y" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialViewPager">
+        <attr name="viewpager_header" format="reference" />
+        <attr name="viewpager_logo" format="reference" />
+        <attr name="viewpager_pagerTitleStrip" format="reference" />
+        <attr name="viewpager_viewpager" format="reference" />
+        <attr name="viewpager_logoMarginTop" format="dimension" />
+        <attr name="viewpager_color" format="color" />
+        <attr name="viewpager_headerHeight" format="dimension" />
+        <attr name="viewpager_headerAlpha" format="float" />
+        <attr name="viewpager_imageHeaderDarkLayerAlpha" format="float" />
+        <attr name="viewpager_hideToolbarAndTitle" format="boolean" />
+        <attr name="viewpager_hideLogoWithFade" format="boolean" />
+        <attr name="viewpager_enableToolbarElevation" format="boolean" />
+        <attr name="viewpager_parallaxHeaderFactor" format="float" />
+        <attr name="viewpager_headerAdditionalHeight" format="dimension" />
+        <attr name="viewpager_displayToolbarWhenSwipe" format="boolean" />
+        <attr name="viewpager_transparentToolbar" format="boolean" />
+        <attr name="viewpager_animatedHeaderImage" format="boolean" />
+        <attr name="viewpager_disableToolbar" format="boolean" />
+        <attr name="viewpager_title" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="selectedTabTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SaundProgressBar">
+        <attr name="progressIndicator" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="textAlign">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+        <attr name="offset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NewReportProgressBar">
+        <attr name="text" format="string" />
+        <attr name="tag" format="string" />
+        <attr name="NewReportTextSize" format="dimension" />
+        <attr name="NewReportTextColor" format="reference|color" />
+        <attr name="progressColor" format="reference|color" />
+        <attr name="backgroundColor" format="reference|color" />
+        <attr name="progress" format="integer" />
+        <attr name="NewReportTextAlign">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NewLoadProgressBar">
+        <attr name="NewLoadText" format="string" />
+        <attr name="NewLoadTag" format="string" />
+        <attr name="NewLoadInfoUp" format="string" />
+        <attr name="NewLoadInfoUpTextSize" format="dimension" />
+        <attr name="NewLoadInfoUpTextColor" format="reference|color" />
+        <attr name="NewLoadInfoDown" format="string" />
+        <attr name="NewLoadInfoDownTextSize" format="dimension" />
+        <attr name="NewLoadInfoDownTextColor" format="reference|color" />
+        <attr name="NewLoadTextSize" format="dimension" />
+        <attr name="NewLoadTextColor" format="reference|color" />
+        <attr name="NewLoadProgressColor" format="reference|color" />
+        <attr name="NewLoadBackgroundColor" format="reference|color" />
+        <attr name="NewLoadProgress" format="integer" />
+        <attr name="NewLoadTextAlign">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="NewOutdoorProgressBar">
+        <attr name="NewOutdoorText" format="string" />
+        <attr name="NewOutdoorTag" format="string" />
+        <attr name="NewOutdoorInfoUp" format="string" />
+        <attr name="NewOutdoorInfoUpTextSize" format="dimension" />
+        <attr name="NewOutdoorInfoUpTextColor" format="reference|color" />
+        <attr name="NewOutdoorInfoDown" format="string" />
+        <attr name="NewOutdoorInfoDownTextSize" format="dimension" />
+        <attr name="NewOutdoorInfoDownTextColor" format="reference|color" />
+        <attr name="NewOutdoorTextSize" format="dimension" />
+        <attr name="NewOutdoorTextColor" format="reference|color" />
+        <attr name="NewOutdoorProgressColor" format="reference|color" />
+        <attr name="NewOutdoorBackgroundColor" format="reference|color" />
+        <attr name="NewOutdoorProgress" format="integer" />
+        <attr name="NewOutdoorTextAlign">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MutiTextView">
+        <attr name="leftText" format="string" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="leftTextColor" format="reference|color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightTextColor" format="reference|color" />
+
+    </declare-styleable>
+    <declare-styleable name="NewWeekSwitch">
+        <attr name="leftTextNewWeekSwitch" format="string" />
+        <attr name="leftTextSizeNewWeekSwitch" format="dimension" />
+        <attr name="leftTextColorNewWeekSwitch" format="reference|color" />
+        <attr name="rightTextNewWeekSwitch" format="string" />
+        <attr name="rightTextSizeNewWeekSwitch" format="dimension" />
+        <attr name="rightTextColorNewWeekSwitch" format="reference|color" />
+
+    </declare-styleable>
+    <declare-styleable name="MinusReportProgressBar">
+        <attr name="MinusReportLeftText" format="string" />
+        <attr name="MinusReportLeftTextSize" format="dimension" />
+        <attr name="MinusReportLeftTextColor" format="reference|color" />
+        <attr name="MinusReportRightText" format="string" />
+        <attr name="MinusReportRightTextSize" format="dimension" />
+        <attr name="MinusReportRightTextColor" format="reference|color" />
+        <attr name="MinusReportProgressText" format="string" />
+        <attr name="MinusReportProgressTextSize" format="dimension" />
+        <attr name="MinusReportProgressTextColor" format="reference|color" />
+        <attr name="MinusReportProgress" format="integer" />
+        <attr name="MinusReportProgressHeight" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DaySet">
+        <attr name="DaySetText" format="string" />
+        <attr name="DaySetTextSize" format="dimension" />
+        <attr name="DaySetTextColor" format="reference|color" />
+        <attr name="DaySetState">
+            <flag name="have_data" value="1001" />
+            <flag name="no_data" value="1002" />
+            <flag name="have_data_not_this_month" value="1003" />
+            <flag name="no_data_not_this_month" value="1004" />
+        </attr>
+        <attr name="DaySetNum" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RankBackView">
+        <attr name="backGroundColor" format="reference|color" />
+    </declare-styleable>
+</resources>
